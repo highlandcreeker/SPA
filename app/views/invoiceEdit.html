@@ -1,0 +1,13 @@
+﻿<div data-view="views/invoiceEdit" class="messageBox">
+    <div class="modal-header">
+        <h3>Invoice Editor</h3>
+    </div>
+    <div class="modal-body">
+        <label for="txtName">Name</label><input id="txtName" type="text" data-bind="value: name" />
+        <label for="name">Paid</label><input id="paid" type="checkbox" data-bind="checked: paid" />
+    </div>
+    <div class="modal-footer">
+        <button data-bind="click: function(){selectOption('save');}">Save</button>
+        <button data-bind="click: function(){selectOption('cancel');}">Cancel</button>
+    </div>
+</div>
